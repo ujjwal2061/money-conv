@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money Conveter</title>
+    <link rel="stylesheet" href="fourth.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <!--Main Div for the Box-->
+    <div class="wrapper">
+        <header>Currency Converter</header>
+        <form action="#">
+            <!-- For Money enter-->
+            <div class="amount">
+                <p>Enter amount</p>
+                <input  type="text" value="">
+            </div>
+    <!--- To change country-->
+    <div class="drop-list">
+  <div class="from">
+    <p>From</p>
+    <div class="select-box">
+        <img src="https://flagcdn.com/us.svg" alt="flag" width="32" height="28">
+        <span class="country-name">USA</span>
+        <!--Option wwill created by usin JS-->
+
+        <select>
+          
+        </select>
+    </div>
+  </div>
+
+<!--For icons of Exchange -->
+<div class="icon"><i class="fas fa-exchange"></i></div>
+
+  <div class="to">
+    <p>To</p>
+    
+    <div class="select-box">
+        <img src="https://flagcdn.com/in.svg"alt="flag" width="32" height="28">
+          <span class="country-name">IND</span>
+
+        <!--Option wwill created by usin JS-->
+
+        <select>
+
+        </select>
+    </div>
+    </div>
+    </div>
+    <div class="exchange-rate">
+      <p>1USD=83.37IND</p>
+    </div>
+    <button>Get Exchange Rate </button>
+    </form>
+    </div>
+<script src="country_code.js"></script>
+ <script src="fourth.js"></script>
+</body>
+</html>
